@@ -10,7 +10,6 @@ namespace QuanLyCaPhe
 {
     public partial class frmDinhMuc : Form
     {
-        // ⚠️ QUAN TRỌNG: Sửa lại chuỗi kết nối này cho đúng với máy tính của bạn
         // (Ví dụ: "Data Source=DESKTOP-ABC123\\SQLEXPRESS;Initial Catalog=BTL_LTHSK;Integrated Security=True")
         public string connectionString = @"Data Source=ADMIN-PC\SQLEXPRESS;Initial Catalog=BTL_LTHSK;Integrated Security=True;TrustServerCertificate=True";
         // Biến lưu mã công thức đang được chọn trên DataGridView để Sửa/Xóa
